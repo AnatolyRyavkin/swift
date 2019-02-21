@@ -1,0 +1,13 @@
+var ar = ["a","z","c","x","f","A","Z","B","!","5","7","1","e","E"]
+print(ar)
+print(ar.sorted(by: {a, b in return a < b}))
+print("a=","a".hashValue)
+print("x=","x".hashValue)
+print("z=","z".hashValue)
+print("f=","f".hashValue)
+print("A=","A".hashValue)
+print("Z=","Z".hashValue)
+print("B=","B".hashValue)
+print("1=","1".hashValue)
+print("2=","2".hashValue)
+print("!=","!".hashValue)
